@@ -1,0 +1,246 @@
+/* Tornando o meu site esponsivo */
+
+@media (max-width:770px) {
+    .sidebar {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        max-width: 100%;
+    }
+    .grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        margin: 0 auto;
+        padding: 10px;
+    }
+    .rodape {
+        justify-content: space-between;
+    }
+    .rede-socias {
+        display: flex;
+    }
+    .sobre-mim {
+        line-height: 25px;
+        margin-top: 20px;
+    }
+    .sobre-mim *:nth-child(2) {
+        margin-top: 20px;
+    }
+    .sobre-mim *:nth-child(3) {
+        margin-top: 20px;
+    }
+    .habilidades div:nth-child(2) {
+        margin-right: 20px;
+    }
+    .sobre-mim h1,
+    p {
+        max-width: 100%;
+    }
+    .sobre-mim h1 {
+        font-size: 2em;
+    }
+    .cabecalho {
+        justify-content: space-between;
+    }
+    .rodape {
+        grid-gap: 0px;
+        padding: 20px;
+    }
+}
+
+
+/* @media (max-width:570px) {
+    .rodape {
+        grid-gap: 400px;
+        justify-content: space-between;
+    }
+} */
+
+@media (max-width:575px) {
+    .area-principal {
+        display: block;
+    }
+    .habilidades {
+        display: block;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    .foto {
+        width: 300px !important;
+    }
+    .habilidades div {
+        margin-top: 20px;
+    }
+    .conteudo {
+        margin-bottom: 20px;
+    }
+    /* Menu Hambuger */
+    .menu-itens {
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 74px;
+        right: 0px;
+        background-color: rgb(117, 117, 235);
+        height: 0;
+        transition: .6s;
+        z-index: 1000;
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+    .nav.active .menu-itens {
+        height: calc(100vh - 74px);
+        visibility: visible;
+        overflow-y: auto;
+    }
+    .menu-itens a {
+        display: block;
+        padding: 1rem 5px;
+        margin: 0 1rem;
+        border-bottom: 2px solid rgba(67, 67, 228, 0.5);
+    }
+    #btn-mobile {
+        display: flex;
+        padding: .5rem 1rem;
+        font-size: 1.3em;
+        color: #fff;
+        background: none;
+        border: none;
+        cursor: pointer;
+        gap: .5rem;
+        align-items: center;
+    }
+    #hamburger {
+        display: block;
+        width: 25px;
+        border-top: 2px solid;
+    }
+    #hamburger::after,
+    #hamburger::before {
+        content: '';
+        width: 25px;
+        height: 2px;
+        display: block;
+        margin-top: 5px;
+        background: currentColor;
+        transition: .6s;
+        position: relative;
+    }
+    .nav.active #hamburger {
+        border-top-color: transparent;
+    }
+    .nav.active #hamburger::before {
+        transform: rotate(135deg);
+    }
+    .nav.active #hamburger::after {
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+    .sidebar {
+        margin: 30px auto;
+    }
+    .habilidades div :first-child {
+        width: 300px;
+    }
+    .area-principal div {
+        margin-top: 40px;
+        margin-left: 120px;
+    }
+    #habilidades {
+        margin: 0 auto;
+        width: 90%;
+        background-color: rgba(22, 22, 80, 0.438);
+    }
+    .rodape {
+        margin-top: -30px;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 200px;
+        justify-content: space-between;
+    }
+    .meus-contatos {
+        padding-left: 8px;
+    }
+}
+
+@media (max-width:726px) {
+    .area-seguinte {
+        display: block;
+    }
+    .foto {
+        width: 300px !important;
+    }
+    .cabecalho {
+        justify-content: space-between;
+    }
+    nav li a {
+        padding: 20px;
+    }
+    nav li {
+        margin-right: 1px;
+    }
+    .foto {
+        margin-left: 100px;
+    }
+    .abb {
+        margin-left: 300px;
+    }
+    .habilidades div:nth-child(2) {
+        margin-right: 0;
+    }
+    .habilidades div:first-child {
+        margin-left: 0;
+    }
+}
+
+@media (min-width:430px) {
+    /* VAmos trabalhar */
+    .foto {
+        width: 280px;
+    }
+    .rodape {
+        gap: 30px;
+        padding: 0;
+    }
+    .rede-socias {
+        display: flex;
+        width: 200px;
+    }
+}
+
+@media(max-width:395px) {
+    img {
+        max-width: 200px;
+    }
+    .rodape {
+        justify-content: space-between;
+        padding: 0;
+        gap: 0;
+    }
+    .rede-socias {
+        max-width: 10px;
+        display: flex;
+        justify-content: end;
+    }
+}
+
+@media (min-width:1052px) {
+    .sidebar {
+        margin: 85px auto;
+    }
+    .cabecalho {
+        position: absolute;
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+    .rodape {
+        max-width: 1300px;
+        /* margin: 0 auto; */
+        margin-top: -82px;
+        margin-left: 40px;
+    }
+}
+
+@media (max-width:725px) {
+    /* .cabecalho {
+        zoom: 0.8;
+    } */
+}
