@@ -1,4 +1,4 @@
-/* Tornando o meu site esponsivo */
+/* Tornando o meu site Responsivo */
 
 @media (max-width:770px) {
     .sidebar {
@@ -57,6 +57,9 @@
     .area-principal {
         display: block;
     }
+    /* .menu-itens li {
+        padding: 2px;
+    } */
     .habilidades {
         display: block;
         margin: 0 auto;
@@ -85,6 +88,9 @@
         visibility: hidden;
         overflow-y: hidden;
     }
+    /* .sidebar {
+        overflow-x: none;
+    } */
     .nav.active .menu-itens {
         height: calc(100vh - 74px);
         visibility: visible;
@@ -150,14 +156,22 @@
     }
     .rodape {
         margin-top: -30px;
-        padding: 20px;
+        padding: 10px;
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 200px;
+        grid-template-columns: repeat(2, 150px);
+        /* grid-gap: 200px; */
         justify-content: space-between;
     }
     .meus-contatos {
         padding-left: 8px;
+    }
+}
+
+@media (max-width:590px) {
+    .rodape {
+        display: grid;
+        padding: 7px;
+        grid-template-columns: repeat(2, 170px);
     }
 }
 
@@ -194,15 +208,23 @@
 @media (min-width:430px) {
     /* VAmos trabalhar */
     .foto {
-        width: 280px;
+        max-width: 280px;
     }
     .rodape {
-        gap: 30px;
-        padding: 0;
+        grid: flex;
+        /* justify-content: space-between; */
+        padding: 2px;
+        /* gap: 100px; */
+        align-items: center;
+        align-self: flex-end;
+        flex-wrap: wrap;
+        /* gap: 100px;
+       
+        grid-template-columns: repeat(2, 170px); */
     }
     .rede-socias {
         display: flex;
-        width: 200px;
+        width: 80px;
     }
 }
 
