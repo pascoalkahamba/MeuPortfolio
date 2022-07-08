@@ -45,14 +45,6 @@
     }
 }
 
-
-/* @media (max-width:570px) {
-    .rodape {
-        grid-gap: 400px;
-        justify-content: space-between;
-    }
-} */
-
 @media (max-width:575px) {
     .area-principal {
         display: block;
@@ -169,9 +161,11 @@
 
 @media (max-width:590px) {
     .rodape {
+        /*ver bem aqui */
         display: grid;
-        padding: 7px;
-        grid-template-columns: repeat(2, 170px);
+        padding: 10px;
+        grid-template-columns: repeat(2, 230px);
+        grid-gap: 120px;
     }
 }
 
@@ -255,14 +249,22 @@
     }
     .rodape {
         max-width: 1300px;
-        /* margin: 0 auto; */
-        margin-top: -82px;
-        margin-left: 40px;
+        margin-top: -85px !important;
+        margin: 0 auto;
     }
 }
 
-@media (max-width:725px) {
-    /* .cabecalho {
-        zoom: 0.8;
-    } */
+@media(max-width:426px) {
+    .sidebar {
+        width: 100vw !important;
+    }
+    img {
+        width: 250px;
+    }
+    .habilidades img {
+        max-width: 200px;
+    }
+    .minha-foto img {
+        max-width: 250px;
+    }
 }
