@@ -11,15 +11,17 @@ Mas a diante mostro uns dos projetos que fiz e por ultimo mostro mas minhas habi
 `Imagem acessando no telefone`. Basta clicar no `menu` que aparece a `lista de opções`.
 
 ## Tecnologias
+
 As seguintes ferramentas foram usadas na constuição deste projeto:
 
 - HTML
 - CSS
 - JAVASCRIPT
 
-# 
-Feito por Pascoal Kahamba meu [Linkedin](https://www.linkedin.com/in/pascoal-kahamba-7b43bb233?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BTg8LEKayToyytOX1pVAQ%2Bg%3D%3D)
+#
 
-<p align='center'>😎Este site está em construição.😎💪</p>
+Feito por ❤ Pascoal Kahamba meu [Linkedin](https://www.linkedin.com/in/pascoal-kahamba-7b43bb233?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BTg8LEKayToyytOX1pVAQ%2Bg%3D%3D)
+
+<p align='center'>😎Este projeto está em construição.😎💪</p>
 
 [👉Clique aqui se quiseres rodar o projeto na tua maquina!👈](https://meu-portfolio-delta.vercel.app/)😎
