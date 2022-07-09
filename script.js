@@ -52,16 +52,48 @@ const por_vez = 3;
 const listaProjetos = [{
         nome: "",
         img: "/img/analizadordenumeros.png",
-        link: "https://free.facebook.com",
+        link: "https://github.com/PascoalKahamba/AnalisadordeNumeros",
     },
-    { nome: "", img: "/img/supercontador.png", link: "" },
-    { nome: "", img: "/img/fotoprojeto.png", link: "https://github.com/PascoalKahamba/-ContaDiasdoAno" },
-    { nome: "", img: "/img/verificadordeidade.png", link: "" },
-    { nome: "", img: "/img/horadodia.png", link: "" },
-    { nome: "", img: "/img/Capturar.png", link: "" },
-    { nome: "", img: "/img/trocavalores.png", link: "https://github.com/PascoalKahamba/TrocaValores" },
-    { nome: "", img: "/img/layout1.png", link: "https://github.com/PascoalKahamba/Layout02" },
-    { nome: "", img: "/img/layout3.png", link: "" },
+    {
+        nome: "",
+        img: "/img/supercontador.png",
+        link: ""
+    },
+    {
+        nome: "",
+        img: "/img/fotoprojeto.png",
+        link: "https://github.com/PascoalKahamba/-ContaDiasdoAno"
+    },
+    {
+        nome: "",
+        img: "/img/verificadordeidade.png",
+        link: "https://github.com/PascoalKahamba/VerificadordeIdade"
+    },
+    {
+        nome: "",
+        img: "/img/horadodia.png",
+        link: ""
+    },
+    {
+        nome: "",
+        img: "/img/Capturar.png",
+        link: ""
+    },
+    {
+        nome: "",
+        img: "/img/trocavalores.png",
+        link: "https://github.com/PascoalKahamba/TrocaValores"
+    },
+    {
+        nome: "",
+        img: "/img/layout1.png",
+        link: "https://github.com/PascoalKahamba/Layout02"
+    },
+    {
+        nome: "",
+        img: "/img/layout3.png",
+        link: ""
+    },
 ];
 
 function addProjetos() {
