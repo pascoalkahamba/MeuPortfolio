@@ -57,7 +57,7 @@ const listaProjetos = [{
     {
         nome: "",
         img: "/img/supercontador.png",
-        link: ""
+        link: "https://github.com/PascoalKahamba/SuperContador"
     },
     {
         nome: "",
@@ -72,7 +72,7 @@ const listaProjetos = [{
     {
         nome: "",
         img: "/img/horadodia.png",
-        link: ""
+        link: "https://github.com/PascoalKahamba/HoradoDia"
     },
     {
         nome: "",
