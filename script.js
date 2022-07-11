@@ -51,47 +51,47 @@ let cont_projetos_a_demonstrar = 0;
 const por_vez = 3;
 const listaProjetos = [{
         nome: "",
-        img: "/img/analizadordenumeros.png",
+        img: "./img/analizadordenumeros.png",
         link: "https://github.com/PascoalKahamba/AnalisadordeNumeros",
     },
     {
         nome: "",
-        img: "/img/supercontador.png",
+        img: "./img/supercontador.png",
         link: "https://github.com/PascoalKahamba/SuperContador"
     },
     {
         nome: "",
-        img: "/img/fotoprojeto.png",
+        img: "./img/fotoprojeto.png",
         link: "https://github.com/PascoalKahamba/-ContaDiasdoAno"
     },
     {
         nome: "",
-        img: "/img/verificadordeidade.png",
+        img: "./img/verificadordeidade.png",
         link: "https://github.com/PascoalKahamba/VerificadordeIdade"
     },
     {
         nome: "",
-        img: "/img/horadodia.png",
+        img: "./img/horadodia.png",
         link: "https://github.com/PascoalKahamba/HoradoDia"
     },
     {
         nome: "",
-        img: "/img/Capturar.png",
+        img: "./img/Capturar.png",
         link: ""
     },
     {
         nome: "",
-        img: "/img/trocavalores.png",
+        img: "./img/trocavalores.png",
         link: "https://github.com/PascoalKahamba/TrocaValores"
     },
     {
         nome: "",
-        img: "/img/layout1.png",
+        img: "./img/layout1.png",
         link: "https://github.com/PascoalKahamba/Layout02"
     },
     {
         nome: "",
-        img: "/img/layout3.png",
+        img: "./img/layout3.png",
         link: ""
     },
 ];
