@@ -6,9 +6,9 @@
         max-width: 100%;
     }
     .grid {
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
         margin: 0 auto;
-        padding: 10px;
+        grid-gap: 14px;
     }
     .rodape {
         justify-content: space-between;
@@ -256,7 +256,7 @@
 
 @media(max-width:426px) {
     .sidebar {
-        width: 100vw !important;
+        width: 100% !important;
     }
     img {
         width: 250px;
