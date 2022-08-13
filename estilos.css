@@ -67,7 +67,7 @@ nav li a:hover {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin-top: 72px;
-  max-width: 1050px;
+  max-width: 100% !important;
   background-image: url(img/backgrund.webp);
   background-size: 100% 100%;
   background-attachment: fixed;

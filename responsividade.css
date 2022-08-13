@@ -247,6 +247,7 @@
   }
   .sidebar {
     margin: 85px auto;
+    max-width: 1050px;
   }
   .cabecalho {
     position: absolute;
